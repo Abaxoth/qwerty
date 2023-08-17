@@ -3,18 +3,14 @@ name: DocFX Deployment
 on: workflow_dispatch
   
 jobs:
-  build:
+  hello_world_job:
     runs-on: ubuntu-latest
-
+    name: A job to say hello
     steps:
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 3.1 
-        
     - uses: actions/checkout@v3
+    # ...
     - uses: nikeee/docfx-action@v1.0.0
-    - name: Build Documentation
+      name: Build Documentation
       with:
         args: docfx_project/docfx.json
      
