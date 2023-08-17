@@ -26,11 +26,11 @@ jobs:
     - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
       with:
-        args: DocFX/docfx.json
+        args: docfx_project/docfx.json
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: DocFX/_site
+        publish_dir: docfx_project/_site
 
