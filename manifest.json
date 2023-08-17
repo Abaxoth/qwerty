@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/github/workspace/docfx_project",
+  "source_base_path": "/github/workspace/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFX.Controllers.WeatherForecastController.html",
-          "hash": "lFpriHBTKvaY+dQlNBAaWQ=="
+          "hash": "j0AUmqvvm9Ght9fcJkzDkA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "vz1sBZ2bbOB1scehkSSpig=="
+          "hash": "Y/URtbHF2lWbynn6heiOug=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "0qXePhYQzehJykeDiPi4Mg=="
+          "hash": "ukkha2yb9WAQmmUyvi/bnw=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "n7szJMkT4kZG2FNyRf9RYA=="
+          "hash": "ZHw+GPvJat70pjXl0+qAhg=="
         }
       },
       "is_incremental": false,
@@ -128,11 +128,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "details": "Cannot build incrementally because docfx version changed from 2.59.4.0 to 2.56.7.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
@@ -158,8 +158,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

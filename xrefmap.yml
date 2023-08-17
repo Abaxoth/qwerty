@@ -48,6 +48,19 @@ references:
   isSpec: "True"
   fullName: DocFX.Controllers.WeatherForecastController.Get
   nameWithType: WeatherForecastController.Get
+- uid: DocFX.Controllers.WeatherForecastController.RandomNumber
+  name: RandomNumber()
+  href: api/DocFX.Controllers.WeatherForecastController.html#DocFX_Controllers_WeatherForecastController_RandomNumber
+  commentId: M:DocFX.Controllers.WeatherForecastController.RandomNumber
+  fullName: DocFX.Controllers.WeatherForecastController.RandomNumber()
+  nameWithType: WeatherForecastController.RandomNumber()
+- uid: DocFX.Controllers.WeatherForecastController.RandomNumber*
+  name: RandomNumber
+  href: api/DocFX.Controllers.WeatherForecastController.html#DocFX_Controllers_WeatherForecastController_RandomNumber_
+  commentId: Overload:DocFX.Controllers.WeatherForecastController.RandomNumber
+  isSpec: "True"
+  fullName: DocFX.Controllers.WeatherForecastController.RandomNumber
+  nameWithType: WeatherForecastController.RandomNumber
 - uid: DocFX.WeatherForecast
   name: WeatherForecast
   href: api/DocFX.WeatherForecast.html
