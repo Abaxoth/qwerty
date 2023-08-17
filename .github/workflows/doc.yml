@@ -18,7 +18,8 @@ jobs:
     - name: Build and Deploy DocFX
       run: |
         dotnet tool restore
-        dotnet docfx "..\docfx_project\docfx.json" -q build
+        dotnet docfx "docfx_project\docfx.json" -q metadata
+        
         
 
     - name: Deploy to GitHub Pages
