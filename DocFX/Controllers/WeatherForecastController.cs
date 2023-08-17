@@ -42,4 +42,10 @@ public class WeatherForecastController : ControllerBase
     {
         return new Random().Next(0, int.MaxValue);
     }
+
+    [HttpGet(Name = "Random string")]
+    public string RandomString()
+    {
+        return "";
+    }
 }
