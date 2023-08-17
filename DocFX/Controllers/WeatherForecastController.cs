@@ -48,4 +48,28 @@ public class WeatherForecastController : ControllerBase
     {
         return "";
     }
+
+    [HttpGet(Name = "Random string 2")]
+    public string RandomString2()
+    {
+        return "";
+    }
+
+    [HttpGet(Name = "Random string 3")]
+    public string RandomString3()
+    {
+        return "";
+    }
+
+    [HttpGet(Name = "Random string 5")]
+    public string RandomString5()
+    {
+        return "";
+    }
+
+    [HttpGet(Name = "Random string 55")]
+    public string RandomString55()
+    {
+        return "";
+    }
 }

@@ -6,7 +6,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "C:\\Users\\Supra\\source\\repos\\DocFX\\DocFX"
+          "src": "../"
         }
       ],
       "dest": "api",
