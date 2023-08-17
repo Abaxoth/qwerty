@@ -15,7 +15,7 @@ jobs:
         args: docfx_project/docfx.json
 
 
-    - uses: Abaxoth/ghpages@main
+    - uses: Abaxoth/qwerty@main
       name: Publish Documentation on GitHub Pages
       env:
         BUILD_DIR: _site
