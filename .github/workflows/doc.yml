@@ -18,6 +18,7 @@ jobs:
     - uses: Abaxoth/qwerty@main
       name: Publish Documentation on GitHub Pages
       env:
-        BUILD_DIR: _site
+        BUILD_DIR: docfx_project/_site
+        GH_PAT: ${{ secrets.GH_PAT }}
 
     
