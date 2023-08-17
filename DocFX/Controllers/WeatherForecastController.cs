@@ -32,4 +32,14 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    /// <summary>
+    /// Get random number [0, int.Max]
+    /// </summary>
+    /// <returns></returns>
+    [HttpGet(Name = "RandomNumber")]
+    public int RandomNumber()
+    {
+        return new Random().Next(0, int.MaxValue);
+    }
 }
