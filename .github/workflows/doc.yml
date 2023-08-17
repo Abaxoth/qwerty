@@ -15,10 +15,11 @@ jobs:
       with:
         dotnet-version: 3.1 
 
-    - name: Build and Deploy DocFX
-      run: |
-        dotnet docfx -q metadata
-        dotnet docfx -q build
+    - name: Install DocFX
+      run: dotnet tool install -g docfx.console
+
+    - name: Build DocFX Documentation
+      run: docfx build
         
         
 
