@@ -18,8 +18,8 @@ jobs:
     - name: Build and Deploy DocFX
       run: |
         dotnet tool restore
-        dotnet docfx -q metadata
-        dotnet docfx -q build
+        dotnet docfx "docfx_project\docfx.json" -q build
+        
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
