@@ -7,23 +7,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: 3.1 
-
-    - name: Install DocFX
-      run: dotnet tool install -g docfx.console
-
-    - name: Build DocFX Documentation
-      run: docfx build
         
-        
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - uses: actions/checkout@v3
+    - uses: nikeee/docfx-action@v1.0.0
+    - name: Build Documentation
       with:
-        publish_dir: ./_site   
+        args: docfx_project/docfx.json
+     
