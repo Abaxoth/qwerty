@@ -1,8 +1,10 @@
 name: DocFX Deployment
-
 on: workflow_dispatch
+permissions:
+  contents: write  
   
 jobs:
+
   hello_world_job:
     runs-on: ubuntu-latest
     name: A job to say hello
