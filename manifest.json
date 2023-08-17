@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFX.Controllers.WeatherForecastController.html",
-          "hash": "j0AUmqvvm9Ght9fcJkzDkA=="
+          "hash": "xuYro9YL8q/C5qc3QaS3lw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFX.Controllers.html",
-          "hash": "shEiyijh1T6EAbPx5QyM7A=="
+          "hash": "sfj5ksggcOCJR9HNqJkAxw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFX.WeatherForecast.html",
-          "hash": "OJ1fjpBau2gpXq5j+ptWHw=="
+          "hash": "1jZwjtUIGHzKANiuv6FAog=="
         }
       },
       "is_incremental": false,
@@ -45,19 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFX.html",
-          "hash": "A48KPOKrJMWDDZQuOVd+og=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "Y/URtbHF2lWbynn6heiOug=="
+          "hash": "rvUGvdFCKjrDxzxyUP58Ew=="
         }
       },
       "is_incremental": false,
@@ -77,47 +65,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "ukkha2yb9WAQmmUyvi/bnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ZHw+GPvJat70pjXl0+qAhg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+          "hash": "WWSD8UL1TQssd0BM1MhvGQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +90,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 1,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
